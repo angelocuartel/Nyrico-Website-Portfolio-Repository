@@ -1,0 +1,93 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'century gothic';
+   background-color:rgb(60, 60, 60);
+   color:white;
+}
+
+.caret{
+    text-align: end;
+    font-weight: 50px;
+    position: absolute;
+    color:white;
+    animation:cursorTyping 3s steps(22) infinite  ,caretBlink 0.8s infinite;
+    width: 35ch;
+}
+
+
+
+h1 {
+   
+    white-space: nowrap;
+    margin-top: 250px;
+    overflow: hidden;
+    animation:headerTyping 3s steps(50) infinite ;
+    width: 35ch;
+}
+
+.text-header{
+    animation:animateHeader 3s linear infinite;
+}
+
+@keyframes animateHeader {
+   0%{
+        color:red;
+    }
+
+    25%{
+        color:dodgerblue;
+    }
+
+   50%{
+        color:mediumpurple;
+    }
+
+    75%{
+        color:orange;
+    }
+
+    100%{
+        color:red;
+    }
+
+   
+}
+
+@keyframes caretBlink {
+    50%{
+        opacity: 0.1;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes headerTyping{
+
+
+    0%{
+        width   : 0ch;
+
+    }
+
+    100%{
+        width: 29ch;
+       
+    }
+
+  
+ 
+}
+
+@keyframes cursorTyping{
+    0%{
+       width: 1ch;
+    }
+    100%{
+        width: 30ch;
+
+    }
+}
+
