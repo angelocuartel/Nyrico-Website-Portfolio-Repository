@@ -11,10 +11,15 @@ html{
     font-weight: 50px;
     position: absolute;
     color:white;
-    animation:cursorTyping 3s steps(22) infinite  ,caretBlink 0.8s infinite;
+    animation:cursorTyping 5s steps(22) infinite  ,caretBlink 0.8s infinite;
     width: 35ch;
 }
 
+
+.container{
+    margin-left:600px;
+
+}
 
 
 h1 {
@@ -22,7 +27,7 @@ h1 {
     white-space: nowrap;
     margin-top: 250px;
     overflow: hidden;
-    animation:headerTyping 3s steps(50) infinite ;
+    animation:headerTyping 5s steps(50) infinite ;
     width: 35ch;
 }
 
