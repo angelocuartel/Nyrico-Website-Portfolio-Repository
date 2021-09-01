@@ -17,22 +17,25 @@ html{
 
 
 .container{
-    margin-left:600px;
+text-align: center;
 
+}
+
+p{
+    animation:animateHeader 5s linear 1s infinite;
 }
 
 
 h1 {
-   
     white-space: nowrap;
     margin-top: 250px;
     overflow: hidden;
-    animation:headerTyping 5s steps(50) infinite ;
-    width: 35ch;
+   /* animation:animateHeader 5s linear infinite;*/
 }
 
 .text-header{
-    animation:animateHeader 3s linear infinite;
+  animation:headerTyping 3s steps(50) infinite  ;
+    
 }
 
 @keyframes animateHeader {
@@ -72,22 +75,27 @@ h1 {
 @keyframes headerTyping{
 
 
+    
     0%{
-        width   : 0ch;
+      
+        color:rgb(60, 60, 60);
+        
 
     }
 
     100%{
-        width: 29ch;
+        
+      color:green;
        
     }
+    
 
-  
  
 }
 
 @keyframes cursorTyping{
     0%{
+        
        width: 1ch;
     }
     100%{
