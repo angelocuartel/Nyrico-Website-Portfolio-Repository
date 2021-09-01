@@ -1,2 +1,2 @@
-# Nyrico-Website-Portfolio-Repository
-My Personal Website 
+# Nyrico Website Portfolio
+My Personal Website that also serves as practice on how to use GIT + GITHUB
